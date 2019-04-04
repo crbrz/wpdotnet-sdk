@@ -1,0 +1,13 @@
+<Project Sdk="Peachpie.NET.Sdk/0.9.38">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeachPied.WordPress.WoocommercePlugin\PeachPied.WordPress.WoocommercePlugin.msbuildproj" />
+    <ProjectReference Include="..\wordpress\PeachPied.WordPress.msbuildproj" />
+  </ItemGroup>
+</Project>
