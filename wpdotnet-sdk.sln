@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeachPied.WordPress.AspNetC
 EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PeachPied.WordPress", "wordpress\PeachPied.WordPress.msbuildproj", "{0E51D101-0992-4AA6-A134-26EA3F2E3934}"
 EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PeachPied.WordPress.WoocommercePlugin", "PeachPied.WordPress.WoocommercePlugin\PeachPied.WordPress.WoocommercePlugin.msbuildproj", "{69E87C07-65B6-4191-BBEC-F7D7B8E43487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E87C07-65B6-4191-BBEC-F7D7B8E43487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E87C07-65B6-4191-BBEC-F7D7B8E43487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E87C07-65B6-4191-BBEC-F7D7B8E43487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E87C07-65B6-4191-BBEC-F7D7B8E43487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
